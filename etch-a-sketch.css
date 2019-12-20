@@ -1,0 +1,13 @@
+#container {
+    display: grid;
+    width: 400px;
+    height: 400px;
+    grid-template: repeat(4, 1fr ) / repeat(4, 1fr);
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    opacity: 0;
+}
